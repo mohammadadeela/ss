@@ -1,0 +1,236 @@
+I want you to build a complete full-stack e-commerce website for my own shop that sells clothes and shoes.
+
+Tech stack:
+- Frontend: React.js
+- Backend: Node.js with Express.js
+- Database: MySQL
+
+Website purpose:
+- A professional online store where customers can browse, search, filter, and buy clothes and shoes.
+- It must be modern, responsive, and easy to use on both mobile and desktop.
+
+Main requirements:
+
+1) Customer-facing website
+- Home page
+- Shop page
+- Product details page
+- Category pages
+- Cart page
+- Checkout page
+- Login / Register page
+- User profile page
+- Order history page
+- Contact page
+- About page
+
+2) Product categories
+- Men
+- Women
+- Shoes
+- New arrivals
+- Best sellers
+- Sale / discounts
+
+3) Product features
+Each product must support:
+- Name
+- Description
+- Price
+- Discount price if available
+- Main image
+- Multiple extra images
+- Category
+- Subcategory
+- Brand
+- Available sizes
+- Available colors
+- Stock quantity
+- SKU
+- Rating / reviews
+- Featured or not
+- New arrival or not
+
+4) Customer features
+- Register and login
+- Secure authentication
+- Browse products
+- Search products by name
+- Filter by category, size, color, price, brand
+- Sort by newest, price low to high, price high to low, best selling
+- Add to cart
+- Update cart quantity
+- Remove from cart
+- Add to wishlist
+- Checkout
+- Place orders
+- See previous orders
+- Track order status
+
+5) Checkout and orders
+- Cash on delivery
+- Customer enters:
+  - full name
+  - phone number
+  - address
+  - city
+  - notes
+- Order statuses:
+  - Pending
+  - Confirmed
+  - Shipped
+  - Delivered
+  - Cancelled
+
+6) Admin dashboard
+The admin dashboard must allow me to manage:
+- Products
+- Categories
+- Orders
+- Customers
+- Reviews
+- Discounts / coupons
+- Homepage banners
+- Inventory / stock
+
+Admin features must include:
+- Add, edit, delete products
+- Upload product images
+- Add product using image upload or image URL
+- Manage product stock and sizes
+- Manage categories and subcategories
+- View all customer orders
+- Change order status
+- View users/customers
+- Dashboard statistics:
+  - total products
+  - total users
+  - total orders
+  - total sales
+  - low stock items
+
+7) Design requirements
+- Clean and modern fashion-store style
+- Attractive home page banner
+- Responsive design for phone and desktop
+- Professional product cards
+- Elegant fonts and spacing
+- Good UX for shopping
+- Arabic and English support if possible
+- RTL support for Arabic
+
+8) Backend requirements
+- REST API using Node.js and Express
+- JWT authentication
+- Password hashing with bcrypt
+- Role-based access:
+  - admin
+  - customer
+- Proper validation
+- Error handling
+- Logging
+- Environment variables for secrets
+- Secure API structure
+
+9) Database requirements
+Design the MySQL database with all needed tables, such as:
+- users
+- admins or user roles
+- categories
+- products
+- product_images
+- product_sizes
+- product_colors
+- cart
+- cart_items
+- orders
+- order_items
+- reviews
+- wishlist
+- coupons
+- banners
+
+10) Deliverables
+I want the project fully organized and production-style with:
+- frontend folder
+- backend folder
+- database SQL file
+- API routes
+- controllers
+- models
+- middleware
+- reusable React components
+- clear folder structure
+- README with setup instructions
+
+11) Important details
+- Use dummy data first if needed
+- Use clean code and comments where necessary
+- Make the project easy to extend later
+- Make sure product images display properly
+- Make sure stock decreases after confirmed order
+- Protect admin routes
+- Make forms validated
+- Make the UI polished
+
+Build an admin product management system with:
+- add/edit/delete products
+- upload main image and multiple gallery images
+- add sizes, colors, and stock per variant
+- save products in MySQL
+- support image upload from local device
+- support image URL option
+- show product preview in admin panel
+
+Build checkout with online card payment support:
+- integrate a real payment gateway for Visa/Mastercard
+- do not store raw card data in database
+- use secure hosted checkout or tokenized payment flow
+- save only transaction reference, payment status, amount, currency, and gateway response metadata
+- update order status after successful payment
+- handle failed and cancelled payments
+Create these backend modules:
+- product controller
+- upload controller
+- order controller
+- payment controller
+- webhook/callback handler for payment confirmation
+Create MySQL tables for:
+- products
+- product_images
+- product_variants
+- categories
+- orders
+- order_items
+- payments
+- users
+- addresses
+- Wishlist
+- Product reviews
+- Discount coupon system
+- Related products section
+- Featured products section
+- New arrivals section
+- Best sellers section
+- Admin sales analytics
+
+Build the project step by step and provide all code files clearly.
+Start with:
+1. folder structure
+2. database schema
+3. backend setup
+4. frontend setup
+5. admin dashboard
+6. final integration
+Shop name: Lucerne Boutique
+Main language: Arabic and English
+Currency: ILS
+Delivery areas: Palestine
+Payment method: Cash on delivery
+Shop style: Elegant and modern
+Target customers: Men and women
+Main product types: Clothes, shoes, bags
+Discount codes: Yes
+Wishlist: Yes
+Reviews: Yes
+Admin analytics: Yes
